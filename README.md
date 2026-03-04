@@ -1,4 +1,4 @@
-# 🎌 Anime Birthday
+# 🎌 Otanjoubi 
 
 An interactive anime-themed birthday web app. Enter a name and birthday — get personalized wishes from your favorite anime characters.
 
