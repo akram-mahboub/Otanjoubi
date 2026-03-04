@@ -724,3 +724,18 @@ input[type="number"] {
   text-transform: uppercase;
   margin-bottom: 4px;
 }
+
+/* ─── Action buttons (New Birthday / Shuffle) — bigger & clearer ─────────── */
+.action-btn {
+  font-size: 11px !important;
+  padding: 10px 28px !important;
+  letter-spacing: 0.18em !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  color: rgba(255, 255, 255, 0.55) !important;
+}
+
+.action-btn:hover {
+  border-color: rgba(255, 255, 255, 0.6) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+}

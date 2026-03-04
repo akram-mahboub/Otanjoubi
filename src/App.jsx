@@ -18,14 +18,12 @@ const CHARACTERS = charactersData.map(c => ({
   getMessage: (name, age) => buildMessage(c.messageTemplate, name, age),
 }));
 
-/* ─── Desktop floating positions ─────────────────────────────────────────── */
+/* ─── Desktop floating positions — 2 left, 2 right ───────────────────────── */
 const DESKTOP_POS = [
-  { floatX: "4%",  floatY: "48%" },
-  { floatX: "80%", floatY: "12%" },
-  { floatX: "16%", floatY: "10%" },
-  { floatX: "76%", floatY: "58%" },
-  { floatX: "42%", floatY: "74%" },
-  { floatX: "58%", floatY: "8%"  },
+  { floatX: "3%",  floatY: "16%" }, /* left  top    */
+  { floatX: "3%",  floatY: "56%" }, /* left  bottom */
+  { floatX: "80%", floatY: "16%" }, /* right top    */
+  { floatX: "80%", floatY: "56%" }, /* right bottom */
 ];
 
 /* ─── Particle seeds ─────────────────────────────────────────────────────── */
@@ -315,7 +313,7 @@ function BirthdayView({ userData, onReset }) {
   const pad = n => String(n).padStart(2, "0");
   const m = isMobile ? "mobile" : "desktop";
 
-  const shuffle = () => setDisplayChars([...CHARACTERS].sort(() => Math.random() - 0.5).slice(0, 6));
+  const shuffle = () => setDisplayChars([...CHARACTERS].sort(() => Math.random() - 0.5).slice(0, 4));
   useEffect(() => { shuffle(); setTimeout(() => setLoaded(true), 80); }, []);
 
   const anim = (delay) => loaded ? { animation: `fadeUp 0.6s ease ${delay}s both` } : { opacity: 0 };
@@ -333,7 +331,7 @@ function BirthdayView({ userData, onReset }) {
 
       <div className={`birthday-view-center ${m}`}>
         <div style={{ pointerEvents: "auto", marginBottom: "16px", ...anim(0.1) }}>
-          <button className="ghost-btn" onClick={onReset}>← New Birthday</button>
+          <button className="ghost-btn action-btn" onClick={onReset}>← New Birthday</button>
         </div>
 
         <div className="date-display" style={{ fontSize: isMobile ? "10px" : "11px", marginBottom: isMobile ? "16px" : "24px", ...anim(0.2) }}>
@@ -374,7 +372,7 @@ function BirthdayView({ userData, onReset }) {
           {isMobile ? "— tap a character below —" : "— click on the characters around you —"}
         </div>
         <div style={{ pointerEvents: "auto", marginTop: "16px", ...anim(1.2) }}>
-          <button className="ghost-btn" onClick={shuffle}>↻ Shuffle Characters</button>
+          <button className="ghost-btn action-btn" onClick={shuffle}>↻ Shuffle Characters</button>
         </div>
       </div>
 
