@@ -1,0 +1,128 @@
+[
+  {
+    "id": "oikawa",
+    "name": "Oikawa Tōru",
+    "series": "Haikyuu!!",
+    "src": "/images/oikawa.jpg",
+    "accentColor": "#7ecef4",
+    "quote": "The greatest miracle is your existence.",
+    "messageTemplate": "Oya oya? Is it really your birthday, {name}-chan? *flips hair* Even someone as talented as me takes a moment to bow for you today. You're a true setter — always making everyone around you shine. Happy {age}th! Don't forget, the greatest miracle is your existence. ✨🏐"
+  },
+  {
+    "id": "levi",
+    "name": "Levi Ackerman",
+    "series": "Attack on Titan",
+    "src": "/images/levi.jpg",
+    "accentColor": "#c8d8e0",
+    "quote": "Tch. Don't waste this year.",
+    "messageTemplate": "Tch. Don't get all teary-eyed just because it's your birthday. But... I'll say this once — you've made it {age} years and you're still standing. That takes real strength. So happy birthday, {name}. Don't waste this year. ⚔️"
+  },
+  {
+    "id": "eren",
+    "name": "Eren Yeager",
+    "series": "Attack on Titan",
+    "src": "/images/eren.jpg",
+    "accentColor": "#a8d8a8",
+    "quote": "Keep moving forward.",
+    "messageTemplate": "You were born free, {name}. And {age} years later you're still fighting for your dreams. I see the fire in you — that same freedom-hungry flame. Keep moving forward. No matter what walls they build around you, you'll break through. Happy Birthday! 🔑🌊"
+  },
+  {
+    "id": "sasuke",
+    "name": "Sasuke Uchiha",
+    "series": "Naruto",
+    "src": "/images/sasuke.jpg",
+    "accentColor": "#d4a8e8",
+    "quote": "A new power is awakening.",
+    "messageTemplate": "...I don't usually say these things. But you've walked your own path and that demands respect. {age} is not the end — it's a new power awakening. Don't rely on others for your strength, {name}. You already have everything you need inside you. 🌀⚡"
+  },
+  {
+    "id": "naruto",
+    "name": "Naruto Uzumaki",
+    "series": "Naruto",
+    "src": "/images/naruto.jpg",
+    "accentColor": "#ffe066",
+    "quote": "Believe it, dattebayo!",
+    "messageTemplate": "HAPPY BIRTHDAY {NAME}!! BELIEVE IT!! 🎉 Dattebayo! You're {age} and absolutely AWESOME! I know sometimes the path is hard and you feel alone but I promise — your ninja way is worth it! Ramen's on me today! 🍜🍥"
+  },
+  {
+    "id": "gojo",
+    "name": "Gojo Satoru",
+    "series": "Jujutsu Kaisen",
+    "src": "/images/gojo.jpg",
+    "accentColor": "#88ccff",
+    "quote": "Throughout heaven and earth, I alone am the honored one.",
+    "messageTemplate": "Yooo {name}~ Happy Birthday! 🎂 Being {age} is pretty great — almost as great as being me. *lifts blindfold* I'm using my Six Eyes just to see how bright your future is... and trust me, it's BLINDING. You're the strongest version of yourself yet! 💙✨"
+  },
+  {
+    "id": "yuta",
+    "name": "Okkotsu Yuta",
+    "series": "Jujutsu Kaisen",
+    "src": "/images/yuta.jpg",
+    "accentColor": "#a0b8d8",
+    "quote": "I'll find a reason to live.",
+    "messageTemplate": "Happy Birthday, {name}. I know what it feels like to wonder if you're enough... But {age} years of surviving this world? That's proof you are. You have more strength inside you than you realize. I believe in you — and so does everyone who loves you. 💍🌸"
+  },
+  {
+    "id": "maki",
+    "name": "Maki Zenin",
+    "series": "Jujutsu Kaisen",
+    "src": "/images/maki.jpg",
+    "accentColor": "#88d888",
+    "quote": "I'll destroy everything that holds me back.",
+    "messageTemplate": "{name}. Happy Birthday. No cursed energy? No special powers? Good — you don't need any of that. {age} years and you're still proving everyone wrong. That's real strength. Don't let anyone define your limits. Break through them all. 🔱💚"
+  },
+  {
+    "id": "itachi",
+    "name": "Itachi Uchiha",
+    "series": "Naruto",
+    "src": "/images/itachi.jpg",
+    "accentColor": "#e88888",
+    "quote": "You don't have to forgive me... just know the truth.",
+    "messageTemplate": "{name}... Happy Birthday. The path of {age} years has been long. You've carried burdens others couldn't see. But true strength isn't about power — it's about the love you protect silently. Never lose sight of what truly matters. 🌙❤️"
+  },
+  {
+    "id": "minato",
+    "name": "Minato Namikaze",
+    "series": "Naruto",
+    "src": "/images/minato.jpg",
+    "accentColor": "#ffdd44",
+    "quote": "The Yellow Flash believes in you.",
+    "messageTemplate": "Happy Birthday, {name}! ⚡ Being a father taught me the most important jutsu — believing in the next generation. At {age}, you're proof that the Will of Fire lives on. You're faster than you think, brighter than you know. Flash forward! 💛✨"
+  },
+  {
+    "id": "hinata",
+    "name": "Hinata Hyuga",
+    "series": "Naruto",
+    "src": "/images/hinata.jpg",
+    "accentColor": "#d4b8e8",
+    "quote": "I never go back on my word. That's my nindō.",
+    "messageTemplate": "H-Happy Birthday, {name}-san! *blushes* I... I want you to know that turning {age} is something to be proud of. You've been so brave, even when you felt small. Your kindness is your greatest strength. Never give up! 🤍💜"
+  },
+  {
+    "id": "aizen",
+    "name": "Aizen Sōsuke",
+    "series": "Bleach",
+    "src": "/images/aizen.jpg",
+    "accentColor": "#c8a8e8",
+    "quote": "Since when were you under the impression you weren't special?",
+    "messageTemplate": "Happy Birthday, {name}. *adjusts glasses* Turning {age} was always part of my plan. Everything in your life has led to this moment — each triumph, each struggle, perfectly orchestrated. Since when were you under the impression you weren't extraordinary? 🪑👑"
+  },
+  {
+    "id": "robin",
+    "name": "Nico Robin",
+    "series": "One Piece",
+    "src": "/images/robin.jpg",
+    "accentColor": "#88a8d8",
+    "quote": "I want to live.",
+    "messageTemplate": "Happy Birthday, {name}. The world tried to tell me I shouldn't exist... but I found people who said otherwise. At {age}, I hope you've found yours too. Your story is a treasure — every chapter matters, even the dark ones. 📚🌺"
+  },
+  {
+    "id": "hancock",
+    "name": "Boa Hancock",
+    "series": "One Piece",
+    "src": "/images/hancock.jpg",
+    "accentColor": "#ff88aa",
+    "quote": "I am beautiful, and so are you.",
+    "messageTemplate": "Happy Birthday, {name}! *strikes pose* Of course someone as magnificent as me would grace you with birthday wishes. But truthfully... turning {age} suits you perfectly. You radiate a beauty that even my Mero Mero beam can't match. Stay gorgeous! 🐍💗👑"
+  }
+]
