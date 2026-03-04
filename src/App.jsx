@@ -20,10 +20,10 @@ const CHARACTERS = charactersData.map(c => ({
 
 /* ─── Desktop floating positions — 2 left, 2 right ───────────────────────── */
 const DESKTOP_POS = [
-  { floatX: "3%",  floatY: "16%" }, /* left  top    */
-  { floatX: "3%",  floatY: "56%" }, /* left  bottom */
+  { floatX: "10%",  floatY: "16%" }, /* left  top    */
+  { floatX: "4%",  floatY: "56%" }, /* left  bottom */
   { floatX: "80%", floatY: "16%" }, /* right top    */
-  { floatX: "80%", floatY: "56%" }, /* right bottom */
+  { floatX: "74%", floatY: "56%" }, /* right bottom */
 ];
 
 /* ─── Particle seeds ─────────────────────────────────────────────────────── */
