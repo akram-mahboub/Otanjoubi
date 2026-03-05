@@ -20,10 +20,10 @@ const CHARACTERS = charactersData.map(c => ({
 
 /* ─── Desktop floating positions — 2 left, 2 right ───────────────────────── */
 const DESKTOP_POS = [
-  { floatX: "10%",  floatY: "16%" }, /* left  top    */
-  { floatX: "4%",  floatY: "56%" }, /* left  bottom */
+  { floatX: "3%",  floatY: "16%" }, /* left  top    */
+  { floatX: "3%",  floatY: "56%" }, /* left  bottom */
   { floatX: "80%", floatY: "16%" }, /* right top    */
-  { floatX: "74%", floatY: "56%" }, /* right bottom */
+  { floatX: "80%", floatY: "56%" }, /* right bottom */
 ];
 
 /* ─── Particle seeds ─────────────────────────────────────────────────────── */
@@ -248,11 +248,14 @@ function DateInputView({ onSubmit }) {
 
   return (
     <div className="date-input-view">
-      <div style={loaded ? { animation: "fadeUp 0.7s ease 0.2s both" } : { opacity: 0 }}>
-        <h1 className="title-main" style={{ fontSize: "clamp(36px,10vw,80px)", lineHeight: 1, marginBottom: "4px" }}>Anime</h1>
-      </div>
-      <div style={loaded ? { animation: "slashIn 0.8s ease 0.4s both", marginBottom: "16px" } : { opacity: 0, marginBottom: "16px" }}>
-        <h1 className="title-main title-birthday-gradient" style={{ fontSize: "clamp(36px,10vw,80px)", lineHeight: 1 }}>Birthday</h1>
+      {/* ── Animated title: "Oya ..? It's a birthday ?" ── */}
+      <div className="landing-title-wrap" style={loaded ? { animation: "fadeUp 0.6s ease 0.2s both" } : { opacity: 0 }}>
+        <span className="landing-oya title-main">Oya</span>
+        <span className="landing-dots title-main"> ..?</span>
+        <br />
+        <span className="landing-its title-main"> It&apos;s a </span>
+        <span className="landing-birthday title-main title-birthday-gradient">birthday</span>
+        <span className="landing-qmark title-main"> ?</span>
       </div>
 
       <div className="hr-line" style={{ marginBottom: "16px", ...anim(0.55) }} />
