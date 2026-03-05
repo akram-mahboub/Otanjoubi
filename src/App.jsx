@@ -253,8 +253,8 @@ function DateInputView({ onSubmit }) {
         <span className="landing-oya title-main">Oya</span>
         <span className="landing-dots title-main"> ..?</span>
         <br />
-        <span className="landing-its title-main"> It&apos;s a </span>
-        <span className="landing-birthday title-main title-birthday-gradient">birthday</span>
+        <span className="landing-its title-main"> It&apos;s a.</span>
+        <span className="landing-birthday title-main title-birthday-gradient">  birthday</span>
         <span className="landing-qmark title-main"> ?</span>
       </div>
 
