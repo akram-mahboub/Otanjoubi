@@ -124,5 +124,86 @@
     "accentColor": "#ff88aa",
     "quote": "I am beautiful, and so are you.",
     "messageTemplate": "Happy Birthday, {name}! *strikes pose* Of course someone as magnificent as me would grace you with birthday wishes. But truthfully... turning {age} suits you perfectly. You radiate a beauty that even my Mero Mero beam can't match. Stay gorgeous! 🐍💗👑"
+  },
+  {
+    "id": "senku",
+    "name": "Senku Ishigami",
+    "series": "Dr. Stone",
+    "src": "/images/senku.jpg",
+    "accentColor": "#b8e986",
+    "quote": "This is exhilarating!",
+    "messageTemplate": "Kukuku... Happy Birthday, {name}! 🧪 {age} years old? That's approximately {age} × 365.25 × 24 × 3600 = a LOT of seconds you've been alive. Each one a miracle of biology. Science never lies — and the data says you're TEN BILLION percent amazing. Now let's celebrate with some cola! 🧬🌿"
+  },
+  {
+    "id": "tsukasa",
+    "name": "Tsukasa Shishio",
+    "series": "Dr. Stone",
+    "src": "/images/tsukasa.jpg",
+    "accentColor": "#d4a878",
+    "quote": "The strong must protect what matters.",
+    "messageTemplate": "Happy Birthday, {name}. The strongest primate high schooler acknowledges your {age} years of survival. True strength isn't about shattering stone — it's about protecting what you love. You've endured this world without breaking. That alone makes you worthy of this new year. Stay strong. 🦁🪨"
+  },
+  {
+    "id": "urahara",
+    "name": "Urahara Kisuke",
+    "series": "Bleach",
+    "src": "/images/urahara.jpg",
+    "accentColor": "#88c888",
+    "quote": "I have prepared a thousand solutions.",
+    "messageTemplate": "Ara ara~ Happy Birthday, {name}-san! 🎩 *fans face* Turning {age}? Don't worry, I had a feeling this would happen — I've been preparing your birthday plan for centuries. Everything is going exactly as I calculated. Your future? Absolutely dazzling. Now come by the shop, first gift is on the house~ 🍬✨"
+  },
+  {
+    "id": "yoruichi",
+    "name": "Yoruichi Shihōin",
+    "series": "Bleach",
+    "src": "/images/yoruichi.jpg",
+    "accentColor": "#e8a848",
+    "quote": "Can you keep up?",
+    "messageTemplate": "Happy Birthday, {name}! ⚡ *appears behind you* Surprised? You shouldn't be — the Goddess of Flash never misses an important occasion. {age} years and you're still keeping up with life at full speed. Not bad at all. Now, race me into your next year — if you can keep up! 🐱💛"
+  },
+  {
+    "id": "kyoraku",
+    "name": "Shunsui Kyōraku",
+    "series": "Bleach",
+    "src": "/images/kyoraku.jpg",
+    "accentColor": "#e888a8",
+    "quote": "Let's take it easy today.",
+    "messageTemplate": "Yare yare~ Happy Birthday, {name}! 🌸 *tips straw hat* {age} years old? That calls for sake under the cherry blossoms, don't you think? Life's too short to rush — savor every lazy afternoon, every kind word, every beautiful sunset. Today is YOUR day. Let's take it nice and easy. 🍶🎐"
+  },
+  {
+    "id": "ukitake",
+    "name": "Jūshirō Ukitake",
+    "series": "Bleach",
+    "src": "/images/ukitake.jpg",
+    "accentColor": "#f0f0f0",
+    "quote": "There is no one who was born into this world to be alone.",
+    "messageTemplate": "Happy Birthday, {name}. 🌊 Turning {age} is a beautiful milestone. I've learned that life is precious — every single day is a gift worth cherishing. No matter how heavy your burdens feel, remember: you were never meant to carry them alone. You are loved. You are enough. Here — have some candy. 🍬🤍"
+  },
+  {
+    "id": "hakari",
+    "name": "Hakari Kinji",
+    "series": "Jujutsu Kaisen",
+    "src": "/images/hakari.jpg",
+    "accentColor": "#ff6688",
+    "quote": "When I'm on a roll, I'm unstoppable.",
+    "messageTemplate": "YO {name}!! Happy Birthday!! 🎰 You're {age} and your FEVER is OFF THE CHARTS right now! When you're on a roll like this, NOBODY can stop you! This birthday hit the jackpot — infinite energy, infinite vibes, infinite potential. Keep that fire burning and ride this streak all year! 🔥♠️"
+  },
+  {
+    "id": "kushina",
+    "name": "Kushina Uzumaki",
+    "series": "Naruto",
+    "src": "/images/kushina.jpg",
+    "accentColor": "#ff6666",
+    "quote": "Don't skip meals, make friends, and find your dream.",
+    "messageTemplate": "Happy Birthday, {name}! 🌶️ Oh, you're {age} already?! They grow up so fast, ya know! *wipes tear* Listen — don't skip meals, make good friends, and chase your dreams with everything you've got! And when life gets rough... just remember someone out there loves you SO much. Happy birthday, dattebane! ❤️🍥"
+  },
+  {
+    "id": "kakashi",
+    "name": "Kakashi Hatake",
+    "series": "Naruto",
+    "src": "/images/kakashi.jpg",
+    "accentColor": "#8899aa",
+    "quote": "Those who abandon their friends are worse than scum.",
+    "messageTemplate": "Yo. 👋 Happy Birthday, {name}. Sorry I'm late — a black cat crossed my path, then I had to help an old lady, and... well, you know how it goes. But turning {age}? That's worth showing up for. In this world, those who break the rules are scum — but those who abandon their friends are worse. Cherish your people. 📖⚡"
   }
 ]
